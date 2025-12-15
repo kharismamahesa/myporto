@@ -23,9 +23,13 @@
       rel="stylesheet"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <style>
       body {
         scroll-behavior: smooth;
+        font-family: "Google Sans Code", monospace;
       }
       .hero {
         background: linear-gradient(135deg, #0d6efd, #6610f2);
@@ -44,7 +48,7 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#">Kharisma</a>
+        <a class="navbar-brand fw-bold" href="#">K.M</a>
         <button
           class="navbar-toggler"
           data-bs-toggle="collapse"
@@ -89,8 +93,7 @@
         <h2 class="fw-bold mb-4">Tentang Saya</h2>
         <p class="text-muted">
           Saya adalah seorang developer yang berpengalaman dalam membangun
-          aplikasi web dan mobile, khususnya sistem pemerintahan, pendidikan,
-          apotek, dan aplikasi internal berbasis database.
+          aplikasi web dan mobile, khususnya sistem pemerintahan, dan aplikasi internal berbasis database.
         </p>
       </div>
     </section>
@@ -102,18 +105,18 @@
 
         <div class="row text-center g-4">
           <!-- Laravel -->
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="card h-100 shadow-sm">
               <div class="card-body">
                 <i class="devicon-laravel-plain colored skill-icon"></i>
                 <h5 class="mt-3">Laravel</h5>
-                <p class="text-muted">REST API, CRUD, Filament</p>
+                <p class="text-muted">CRUD, Filament</p>
               </div>
             </div>
           </div>
 
           <!-- CodeIgniter -->
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="card h-100 shadow-sm">
               <div class="card-body">
                 <i class="devicon-codeigniter-plain colored skill-icon"></i>
@@ -124,7 +127,7 @@
           </div>
 
           <!-- Flutter -->
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="card h-100 shadow-sm">
               <div class="card-body">
                 <i class="devicon-flutter-plain colored skill-icon"></i>
@@ -135,7 +138,7 @@
           </div>
 
           <!-- MySQL -->
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="card h-100 shadow-sm">
               <div class="card-body">
                 <i class="devicon-mysql-plain colored skill-icon"></i>
@@ -146,6 +149,18 @@
               </div>
             </div>
           </div>
+
+          <!-- Bootstrap -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <i class="devicon-bootstrap-plain colored skill-icon"></i>
+                <h5 class="mt-3">Bootstrap</h5>
+                <p class="text-muted">CSS Framework, Responsive Design</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -153,9 +168,10 @@
     <!-- PROJECTS -->
     <section id="projects" class="py-5">
       <div class="container">
-        <h2 class="fw-bold text-center mb-5">Projects</h2>
+        <h2 class="fw-bold text-center mb-5">Project Saya</h2>
         <div class="row g-4">
-          <div class="col-md-4">
+          <h5 class="text-center">COMING SOON ...</h5>
+          <!-- <div class="col-md-4">
             <div class="card shadow-sm h-100">
               <div class="card-body">
                 <h5 class="card-title">Sistem Apotek</h5>
@@ -190,7 +206,7 @@
                 <span class="badge bg-info">Flutter</span>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -202,16 +218,33 @@
         <p>Hubungi saya melalui</p>
 
         <div class="d-flex justify-content-center gap-4 mt-3">
-          <a href="#" class="text-light fs-4"><i class="bi bi-envelope"></i></a>
-          <a href="#" class="text-light fs-4"><i class="bi bi-github"></i></a>
-          <a href="#" class="text-light fs-4"><i class="bi bi-linkedin"></i></a>
+          <a href="mailto:kharismamahesa27@gmail.com" class="fs-4 text-danger">
+              <i class="bi bi-envelope"></i>
+          </a>
+
+          <a href="https://github.com/kharismamahesa/" class="fs-4 text-light">
+              <i class="bi bi-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/kharismamahesa12/" 
+            class="fs-4" 
+            style="color:#0A66C2;">
+              <i class="bi bi-linkedin"></i>
+          </a>
+
+          <a href="https://www.instagram.com/kharismamahesa12/" 
+            class="fs-4" 
+            style="color:#E4405F;">
+              <i class="bi bi-instagram"></i>
+          </a>
+
         </div>
       </div>
     </section>
 
     <!-- FOOTER -->
     <footer class="bg-black text-center text-muted py-3">
-      © 2025 Kharisma Mahesa
+      © 2025 Kharisma Mahesa v.1.0
     </footer>
 
     <!-- Bootstrap JS -->
